@@ -45,9 +45,22 @@ body, html {
 .box-one, .box-two, .box-three {
 	width: 10rem;
 	height: 7.8rem;
-	margin: 1.56rem;
-	padding: 0;
-	background-color: #000;
+	padding: 1rem 0.4rem;
+     background-color: #fff;
+     border-bottom: 1px black solid;
+     border-right: 1px black solid;
+}
+
+.status-text {
+     font-family: monospace;
+     display: flex;
+     justify-content: center;
+}
+
+.horizontal-line {
+     background: #000;
+     height: 3px;
+     width: 80%;
 }
 
 .login {
@@ -56,7 +69,8 @@ body, html {
 	align-items: center;
 }
 .login-button {
-     background-color: #0058A0;
+     background-color: rgb(0,107,173);
 	color: #FFF;
-	padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+     padding: 0.4rem 1.6rem;
+     border: 2px black solid;
 }
