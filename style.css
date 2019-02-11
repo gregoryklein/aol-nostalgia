@@ -9,7 +9,16 @@ body, html {
 
 .window-top-bar {
      height: 1rem;
-     background: gray;
+     background: #cecece;
+    
+}
+
+.bar-text {
+     color: #000;
+     font-family: monospace;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 .mainlogo {
@@ -41,18 +50,13 @@ body, html {
 	background-color: #000;
 }
 
-.cancelButton {
-	display: flex;
+.login {
+     display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 1.5rem 1rem 2rem 1rem;
 }
-
-.cancel-button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #0058A0;
+.login-button {
+     background-color: #0058A0;
 	color: #FFF;
 	padding: 0.4rem 0.6rem 0.4rem 0.6rem;
 }

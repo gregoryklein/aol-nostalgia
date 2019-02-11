@@ -11,7 +11,9 @@
 
      <div class="fullwindow">
           <!--top window bar-->
-          <div class="window-top-bar"></div>
+          <div class="window-top-bar">
+               <p class="bar-text">Connecting To America Online...</p>
+          </div>
           <div class="window">
                <img class="mainlogo" src="https://vignette.wikia.nocookie.net/logopedia/images/2/22/America_Online_1991.svg/revision/latest/scale-to-width-down/300?cb=20180724094356">
           </div>
@@ -24,8 +26,9 @@
                     class="box-three" />
           </div>
      </div>
-     <div class="cancelButton">
-          <button class="cancel-button">Cancel</button>
+     <div class="login">
+          <audio id="modem" src="dialup-sound.mp3" preload="auto"></audio>
+          <button class="login-button" onclick="document.getElementById('modem').play();">Login</button>
      </div>
 
      <hr>
