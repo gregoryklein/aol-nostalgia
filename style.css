@@ -1,0 +1,58 @@
+body, html {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	max-width: 100%;
+     max-height: 100%;
+     margin: 0;
+     padding: 0;
+}
+
+.window-top-bar {
+     height: 1rem;
+     background: gray;
+}
+
+.mainlogo {
+	display: flex;
+	justify-content: center;
+	filter: drop-shadow(10px 5px 5px #909393);
+	width: 100px;
+	height: 100px;
+	padding: 0.6rem 0rem 0rem 0rem;
+}
+
+.window {
+	display: flex;
+	justify-content: center;
+}
+
+.progressbox {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-one, .box-two, .box-three {
+	width: 10rem;
+	height: 7.8rem;
+	margin: 1.56rem;
+	padding: 0;
+	background-color: #000;
+}
+
+.cancelButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5rem 1rem 2rem 1rem;
+}
+
+.cancel-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0058A0;
+	color: #FFF;
+	padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+}
